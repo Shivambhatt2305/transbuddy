@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOURBUDDY - Student Transport</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">TRANSBUDDY</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="auth-buttons">
+                <!-- Login button redirects to finallogin.html -->
+                <button id="loginBtn" onclick="window.location.href='finallogin.html'">Login</button>
+                <!-- Register button redirects to signup.html -->
+                <button id="registerBtn" onclick="window.location.href='signup.html'">Register</button>
+            </div>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Safe Rides for Bright Futures</h1>
+                    <p>Reliable and efficient student transportation at your fingertips</p>
+                    <p>Designed by- Shivam Bhatt</p>
+                    <button id="startSoftwareBtn" class="cta-button" onclick="window.location.href='index.html'">Get Started</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About Us</h2>
+                    <p>TRANSBUDDY is a cutting-edge student transportation service dedicated to providing safe, reliable, and efficient rides for students. Our mission is to revolutionize school transportation, making it stress-free for parents and enjoyable for students.</p>
+                    <p>With years of experience in the transportation industry, we've developed a system that combines advanced technology with a commitment to safety and customer satisfaction. Our team of professional drivers and state-of-the-art vehicles ensure that every student reaches their destination comfortably and on time.</p>
+                    <a href="#" class="learn-more-btn">Learn More</a>
+                </div>
+                <div class="about-image">
+                    <img src="E:\transbuddy\templates\busforhomepage.png" alt="Students boarding a YOURBUDDY bus">
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <h2>Why Choose YOURBUDDY</h2>
+            <div class="feature-content">
+                <div class="feature-card">
+                    <i class="fas fa-bus"></i>
+                    <h3>Safe Transportation</h3>
+                    <p>We prioritize the safety of students with our modern fleet and trained drivers.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-users"></i>
+                    <h3>Experienced Team</h3>
+                    <p>Our team of professionals ensures smooth operations and excellent service.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-phone-alt"></i>
+                    <h3>24/7 Support</h3>
+                    <p>We're always here to assist you with any questions or concerns.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Get in Touch</h2>
+            <form id="contactForm">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>YOURBUDDY</h3>
+                <p>Transforming student transportation</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 YOURBUDDY. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
